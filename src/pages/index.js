@@ -1,37 +1,29 @@
 import React from "react";
+import { css } from "emotion";
 import { graphql, Link } from "gatsby";
 
 import Header from "../components/Header";
 
 export default ({ data }) => {
-    console.log(data);
     return (
         <div>
             <Header />
             Hello world!
             <hr />
             <div>
-                <h1>My Site's Files</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>relativePath</th>
-                            <th>prettySize</th>
-                            <th>extension</th>
-                            <th>birthTime</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {data.allFile.edges.map(({ node }, index) => (
-                            <tr key={index}>
-                                <td>{node.relativePath}</td>
-                                <td>{node.prettySize}</td>
-                                <td>{node.extension}</td>
-                                <td>{node.birthTime}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+                <h1>My Posts</h1>
+                {data.allMarkdownRemark.edges.map(({ node }) => (
+                    <div key={node.id}>
+                        <h2>{node.frontmatter.title}</h2>
+                        <span
+                            className={css`
+                                color: #bbb;
+                            `}
+                        >
+                            — {node.frontmatter.date}
+                        </span>
+                    </div>
+                ))}
             </div>
         </div>
     );
@@ -39,13 +31,16 @@ export default ({ data }) => {
 
 export const query = graphql`
     query {
-        allFile {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+            totalCount
             edges {
                 node {
-                    relativePath
-                    prettySize
-                    extension
-                    birthTime(fromNow: true)
+                    id
+                    frontmatter {
+                        title
+                        date(formatString: "DD MMMM, YYYY")
+                    }
+                    excerpt
                 }
             }
         }
