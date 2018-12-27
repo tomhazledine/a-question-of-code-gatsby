@@ -1,6 +1,6 @@
 import React from "react";
 import { css } from "emotion";
-import { graphql, Link } from "gatsby";
+import { Link, graphql } from "gatsby";
 
 import Header from "../components/Header";
 
@@ -13,7 +13,7 @@ export default ({ data }) => {
             <div>
                 <h1>My Posts</h1>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
-                    <div key={node.id}>
+                    <Link key={node.id} to={node.fields.slug}>
                         <h2>{node.frontmatter.title}</h2>
                         <span
                             className={css`
@@ -22,7 +22,7 @@ export default ({ data }) => {
                         >
                             — {node.frontmatter.date}
                         </span>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>
@@ -39,6 +39,9 @@ export const query = graphql`
                     frontmatter {
                         title
                         date(formatString: "DD MMMM, YYYY")
+                    }
+                    fields {
+                        slug
                     }
                     excerpt
                 }
