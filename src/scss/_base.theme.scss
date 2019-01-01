@@ -1,0 +1,37 @@
+body {
+    font-family: $text;
+    // color: $black;
+    // background: $cream;
+}
+
+a {
+    // color: $black;
+    // text-decoration: none;
+    // transition: color 0.2s;
+    // &:hover {
+    // color: $pink;
+    // }
+}
+
+li {
+    // list-style: none;
+}
+
+p {
+    // padding-bottom: 1em;
+    // line-height: 1.6;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.test_subtitle {
+    font-style: italic;
+}

@@ -1,0 +1,24 @@
+// Global Box Sizing
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+// Sizes
+html {
+    font-size: 62.5%;
+    // Adjust for every project
+    //@include breakpoint(upTwo){font-size:110%;}
+    //@include breakpoint(downTwo){font-size:90%;}
+
+    // height: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    // height: 100%;
+}

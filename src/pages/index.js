@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby";
 
 import Header from "../components/Header";
 
+import "../scss/main.scss";
+
 export default ({ data }) => {
     return (
         <div>
@@ -14,10 +16,18 @@ export default ({ data }) => {
                 <h1>My Posts</h1>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <Link key={node.id} to={node.fields.slug}>
-                        <h2>{node.frontmatter.title}</h2>
+                        <h2
+                            css={css`
+                                font-weight: bold;
+                            `}
+                        >
+                            {node.frontmatter.title}
+                        </h2>
                         <span
-                            className={css`
+                            className="test_subtitle"
+                            css={css`
                                 color: #bbb;
+                                font-style: italic;
                             `}
                         >
                             — {node.frontmatter.date}

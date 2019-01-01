@@ -1,0 +1,62 @@
+// Typography etc.
+
+// Font-face stub code. Use this if we
+// want to include our own font files:
+
+@font-face {
+    font-family: "Cartograph Mono";
+    src: url("../fonts/cartograph_mono/CartographMonoCF-Medium.eot");
+    src: url("../fonts/cartograph_mono/CartographMonoCF-Medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/cartograph_mono/CartographMonoCF-Medium.woff")
+            format("woff"),
+        url("../fonts/cartograph_mono/CartographMonoCF-Medium.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cartograph Mono";
+    src: url("../fonts/cartograph_mono/CartographMonoCF-MediumItalic.eot");
+    src: url("../fonts/cartograph_mono/CartographMonoCF-MediumItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/cartograph_mono/CartographMonoCF-MediumItalic.woff")
+            format("woff"),
+        url("../fonts/cartograph_mono/CartographMonoCF-MediumItalic.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cartograph Mono";
+    src: url("../fonts/cartograph_mono/CartographMonoCF-Bold.eot");
+    src: url("../fonts/cartograph_mono/CartographMonoCF-Bold.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/cartograph_mono/CartographMonoCF-Bold.woff")
+            format("woff"),
+        url("../fonts/cartograph_mono/CartographMonoCF-Bold.ttf")
+            format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cartograph Mono";
+    src: url("../fonts/cartograph_mono/CartographMonoCF-BoldItalic.eot");
+    src: url("../fonts/cartograph_mono/CartographMonoCF-BoldItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fonts/cartograph_mono/CartographMonoCF-BoldItalic.woff")
+            format("woff"),
+        url("../fonts/cartograph_mono/CartographMonoCF-BoldItalic.ttf")
+            format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+// Fonts
+$text: "Cartograph Mono", sans-serif;
+$display: "Cartograph Mono", $text;
+$utility: "Cartograph Mono", Helvetica, Arial, sans-serif;
+$code: "Cartograph Mono", monospace;
