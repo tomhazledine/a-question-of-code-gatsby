@@ -22,7 +22,9 @@ const Header = () => (
                     margin-bottom: 1em;
                 `}
             >
-                <h1>{data.site.siteMetadata.title}</h1>
+                <Link to="/">
+                    <h1>{data.site.siteMetadata.title}</h1>
+                </Link>
                 <ul
                     className={css`
                         display: flex;
@@ -37,7 +39,10 @@ const Header = () => (
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">About Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/archive">All Shows</Link>
                     </li>
                 </ul>
             </div>
