@@ -23,7 +23,8 @@ const Header = () => (
                 `}
             >
                 <Link to="/">
-                    <h1>{data.site.siteMetadata.title}</h1>
+                    {/* <h1>{data.site.siteMetadata.title}</h1> */}
+                    <h3>aQoC</h3>
                 </Link>
                 <ul
                     className={css`

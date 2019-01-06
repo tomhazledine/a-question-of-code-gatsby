@@ -10,28 +10,30 @@ export default ({ data }) => {
     return (
         <div>
             <Header />
-            <div>
-                <h1>Archive</h1>
-                {data.allMarkdownRemark.edges.map(({ node }) => (
-                    <Link key={node.id} to={node.fields.slug}>
-                        <h2
-                            css={css`
-                                font-weight: bold;
-                            `}
-                        >
-                            {node.frontmatter.title}
-                        </h2>
-                        <span
-                            className="test_subtitle"
-                            css={css`
-                                color: #bbb;
-                                font-style: italic;
-                            `}
-                        >
-                            — {node.frontmatter.date}
-                        </span>
-                    </Link>
-                ))}
+            <div className="wrapper">
+                <div>
+                    <h1>Archive</h1>
+                    {data.allMarkdownRemark.edges.map(({ node }) => (
+                        <Link key={node.id} to={node.fields.slug}>
+                            <h2
+                                css={css`
+                                    font-weight: bold;
+                                `}
+                            >
+                                {node.frontmatter.title}
+                            </h2>
+                            <span
+                                className="test_subtitle"
+                                css={css`
+                                    color: #bbb;
+                                    font-style: italic;
+                                `}
+                            >
+                                — {node.frontmatter.date}
+                            </span>
+                        </Link>
+                    ))}
+                </div>
             </div>
         </div>
     );

@@ -17,19 +17,21 @@ export default ({ data }) => {
     return (
         <div>
             <Header />
-            <h1>A Question of Code</h1>
-            <h2>
-                A newbie coder and a seasoned veteran discuss the questions that
-                always come up when someone begins learning to code.
-            </h2>
-            <hr />
-            <div>
-                <h2>Latest episode:</h2>
-                <EpisodeFeatured episode={latest} />
-                <h3>...and the rest:</h3>
-                {theRest.map(node => (
-                    <EpisodeSummary episode={node} key={node.id} />
-                ))}
+            <div className="wrapper">
+                <h1>A Question of Code</h1>
+                <h2>
+                    A newbie coder and a seasoned veteran discuss the questions
+                    that always come up when someone begins learning to code.
+                </h2>
+                <hr />
+                <div>
+                    <h2>Latest episode:</h2>
+                    <EpisodeFeatured episode={latest} />
+                    <h3>...and the rest:</h3>
+                    {theRest.map(node => (
+                        <EpisodeSummary episode={node} key={node.id} />
+                    ))}
+                </div>
             </div>
         </div>
     );
