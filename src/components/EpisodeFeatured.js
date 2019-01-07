@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { css } from "emotion";
+import moment from "moment";
 
 const EpisodeFeatured = ({ episode }) => (
     <Link key={episode.id} to={episode.fields.slug}>
@@ -18,7 +19,7 @@ const EpisodeFeatured = ({ episode }) => (
                 font-style: italic;
             `}
         >
-            — {episode.frontmatter.date}
+            — {moment(episode.frontmatter.date, "YYYYMMDD").format("Do MMM, Y")}
         </span>
     </Link>
 );
