@@ -4,6 +4,7 @@ import { css } from "emotion";
 import moment from "moment";
 
 import Header from "../components/Header";
+import Player from "../components/Player";
 
 const post = ({ data }) => {
     const post = data.markdownRemark;
@@ -24,8 +25,7 @@ const post = ({ data }) => {
                     )}
                 </span>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                <span>{post.frontmatter.audio}</span>
-                <audio src={post.frontmatter.audio} />
+                <Player url={post.frontmatter.audio} />
             </div>
         </div>
     );
