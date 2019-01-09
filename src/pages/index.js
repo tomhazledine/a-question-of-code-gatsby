@@ -1,7 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { css } from "emotion";
 
 import Header from "../components/Header";
+import Logo from "../components/Logo";
 import EpisodeFeatured from "../components/EpisodeFeatured";
 import EpisodeSummary from "../components/EpisodeSummary";
 
@@ -18,7 +20,7 @@ export default ({ data }) => {
         <div>
             <Header />
             <div className="wrapper">
-                <h1>A Question of Code</h1>
+                <Logo />
                 <h2>
                     A newbie coder and a seasoned veteran discuss the questions
                     that always come up when someone begins learning to code.
