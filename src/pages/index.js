@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { css } from "emotion";
+// import { css } from "emotion";
 
 import Header from "../components/Header";
 import Logo from "../components/Logo";

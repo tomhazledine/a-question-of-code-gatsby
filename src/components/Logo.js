@@ -11,7 +11,6 @@ const Logo = ({ remWidth = 24 }) => {
             `}
         >
             <svg
-                className="logo__icon"
                 viewBox="0 0 1852 1389"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +31,6 @@ const Logo = ({ remWidth = 24 }) => {
                 />
             </svg>
             <h1
-                className="logo__lockup"
                 className={css`
                     font-style: normal;
                     line-height: 1;
@@ -41,7 +39,6 @@ const Logo = ({ remWidth = 24 }) => {
                 `}
             >
                 <span
-                    className="logo__line-one"
                     className={css`
                         display: block;
                         font-size: 1em;
@@ -51,7 +48,6 @@ const Logo = ({ remWidth = 24 }) => {
                     a question of
                 </span>
                 <span
-                    className="logo__line-two"
                     className={css`
                         margin-right: -0.1em;
                         text-transform: uppercase;
