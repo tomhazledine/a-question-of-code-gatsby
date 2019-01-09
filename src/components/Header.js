@@ -15,16 +15,7 @@ const Header = () => (
             }
         `}
         render={data => (
-            <div
-                className={css`
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                `}
-            >
+            <div className="header">
                 <Link className="header__home" to="/">
                     <svg
                         className={css`
@@ -60,7 +51,11 @@ const Header = () => (
                     `}
                 >
                     <li className="header__link">
-                        <a href={data.site.siteMetadata.feed} target="_blank">
+                        <a
+                            href={data.site.siteMetadata.feed}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             RSS
                         </a>
                     </li>

@@ -6,6 +6,8 @@ import moment from "moment";
 import Header from "../components/Header";
 import Player from "../components/Player";
 
+import "../scss/main.scss";
+
 const post = ({ data }) => {
     const post = data.markdownRemark;
     return (

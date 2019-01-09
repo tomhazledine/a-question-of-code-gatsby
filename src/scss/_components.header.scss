@@ -1,3 +1,13 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // border-top: 1rem solid orange;
+}
+
 .header__home {
     display: flex;
     text-decoration: none;
