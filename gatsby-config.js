@@ -13,6 +13,15 @@ module.exports = {
                 path: `${__dirname}/src/episodes`
             }
         },
-        `gatsby-plugin-sass`
+        `gatsby-plugin-sass`,
+        {
+            resolve: `gatsby-plugin-favicon`,
+            options: {
+                logo: "./src/images/favicon.png",
+                icons: {
+                    twitter: true
+                }
+            }
+        }
     ]
 };
