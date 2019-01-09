@@ -1,0 +1,12 @@
+.header__home {
+    display: flex;
+    text-decoration: none;
+}
+.header__home-text,
+.header__link {
+    padding: 1rem 1rem;
+    > a {
+        line-height: 1;
+        text-decoration: none;
+    }
+}

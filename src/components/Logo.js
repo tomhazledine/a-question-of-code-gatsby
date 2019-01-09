@@ -21,6 +21,7 @@ const Logo = ({ remWidth = 24 }) => {
                     margin: 0 auto;
                     display: block;
                     margin-bottom: ${rem * 1.2}rem;
+                    fill: #3e3d38;
                 `}
             >
                 <title>Icon</title>

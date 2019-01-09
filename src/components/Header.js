@@ -25,11 +25,7 @@ const Header = () => (
                     justify-content: space-between;
                 `}
             >
-                <div
-                    className={css`
-                        display: flex;
-                    `}
-                >
+                <Link className="header__home" to="/">
                     <svg
                         className={css`
                             display: block;
@@ -49,11 +45,10 @@ const Header = () => (
                             fillRule="nonzero"
                         />
                     </svg>
-                    <Link to="/">
-                        {/* <h1>{data.site.siteMetadata.title}</h1> */}
-                        <h3>aQoC</h3>
-                    </Link>
-                </div>
+                    {/* <h1>{data.site.siteMetadata.title}</h1> */}
+                    <h3 className="header__home-text">aQoC</h3>
+                </Link>
+
                 <ul
                     className={css`
                         display: flex;
@@ -64,18 +59,18 @@ const Header = () => (
                         }
                     `}
                 >
-                    <li>
+                    <li className="header__link">
                         <a href={data.site.siteMetadata.feed} target="_blank">
                             RSS
                         </a>
                     </li>
-                    <li>
+                    <li className="header__link">
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className="header__link">
                         <Link to="/about">About Us</Link>
                     </li>
-                    <li>
+                    <li className="header__link">
                         <Link to="/archive">All Shows</Link>
                     </li>
                 </ul>

@@ -1,7 +1,7 @@
 body {
     font-family: $text;
-    // color: $black;
-    // background: $cream;
+    color: $black;
+    background: $cream;
     margin: 4em 1em 1em;
 }
 
@@ -11,12 +11,12 @@ body {
 }
 
 a {
-    // color: $black;
+    color: $black;
     // text-decoration: none;
-    // transition: color 0.2s;
-    // &:hover {
-    // color: $pink;
-    // }
+    transition: color 0.2s;
+    &:hover {
+        color: $orange;
+    }
 }
 
 li {
