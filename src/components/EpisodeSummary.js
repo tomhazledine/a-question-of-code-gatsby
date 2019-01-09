@@ -4,7 +4,7 @@ import { css } from "emotion";
 import moment from "moment";
 
 const EpisodeSummary = ({ episode }) => (
-    <Link key={episode.id} to={episode.fields.slug}>
+    <Link key={episode.id} to={episode.fields.slug} className="excerpt">
         <h2
             css={css`
                 font-weight: bold;

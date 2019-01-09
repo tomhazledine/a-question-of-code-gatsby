@@ -4,16 +4,21 @@ import { css } from "emotion";
 import moment from "moment";
 
 const EpisodeFeatured = ({ episode }) => (
-    <Link key={episode.id} to={episode.fields.slug}>
-        <h2
-            css={css`
-                font-weight: bold;
-            `}
-        >
-            {episode.frontmatter.number}: {episode.frontmatter.title}
-        </h2>
+    <Link
+        key={episode.id}
+        to={episode.fields.slug}
+        className="excerpt excerpt--featured"
+    >
+        <div className="excerpt__title">
+            <span className="excerpt__title-number">
+                {episode.frontmatter.number}:
+            </span>{" "}
+            <span className="exerpt__title-body">
+                {episode.frontmatter.title}
+            </span>
+        </div>
         <span
-            className="test_subtitle"
+            className="excerpt__date"
             css={css`
                 color: #bbb;
                 font-style: italic;
@@ -21,6 +26,9 @@ const EpisodeFeatured = ({ episode }) => (
         >
             — {moment(episode.frontmatter.date, "YYYYMMDD").format("Do MMM, Y")}
         </span>
+        <p className="excerpt--featured__summary">
+            {episode.frontmatter.summary}
+        </p>
     </Link>
 );
 

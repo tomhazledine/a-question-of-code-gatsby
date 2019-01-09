@@ -20,16 +20,20 @@ export default ({ data }) => {
         <div>
             <Header />
             <div className="wrapper">
-                <Logo />
-                <h2>
-                    A newbie coder and a seasoned veteran discuss the questions
-                    that always come up when someone begins learning to code.
-                </h2>
-                <hr />
-                <div>
-                    <h2>Latest episode:</h2>
+                <div className="home__header">
+                    <Logo />
+                    <h2>
+                        A newbie coder and a seasoned veteran discuss the
+                        questions that always come up when someone begins
+                        learning to code.
+                    </h2>
+                </div>
+                <div className="block--featured">
+                    <h3 className="heading--label">Latest episode:</h3>
                     <EpisodeFeatured episode={latest} />
-                    <h3>...and the rest:</h3>
+                </div>
+                <div className="block--regular">
+                    <h3 className="heading--label">...and the rest:</h3>
                     {theRest.map(node => (
                         <EpisodeSummary episode={node} key={node.id} />
                     ))}
@@ -50,6 +54,7 @@ export const query = graphql`
                         title
                         number
                         date(formatString: "YYYYMMDD")
+                        summary
                     }
                     fields {
                         slug
