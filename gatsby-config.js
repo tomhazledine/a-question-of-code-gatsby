@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `A question of code`
+        title: `A question of code`,
+        feed: `https://feeds.transistor.fm/a-question-of-code`
     },
     plugins: [
         `gatsby-plugin-emotion`,

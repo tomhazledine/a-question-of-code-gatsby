@@ -9,6 +9,7 @@ const Header = () => (
                 site {
                     siteMetadata {
                         title
+                        feed
                     }
                 }
             }
@@ -36,6 +37,9 @@ const Header = () => (
                         }
                     `}
                 >
+                    <li>
+                        <a href={data.site.siteMetadata.feed}>RSS</a>
+                    </li>
                     <li>
                         <Link to="/">Home</Link>
                     </li>

@@ -2,6 +2,7 @@
 title: "Why are you learning to code?"
 number: "01"
 date: "2019-01-01"
+audio: "https://media.transistor.fm/fa52c344.mp3"
 ---
 
 This week Tom and Ed introduce A Question of Code, a new podcast answering the common questions that come up when learning to code. Ed’s a newbie coder who’s only been learning to code for a year and Tom’s a more seasoned developer having worked in the industry for a few years. They discuss how and why they got drawn into a career in programming and each explain what’s kept them there (or almost there in Ed’s case).
