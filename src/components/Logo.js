@@ -7,6 +7,7 @@ const Logo = ({ remWidth = 24 }) => {
         <div
             className={css`
                 width: ${remWidth}rem;
+                font-size: ${rem}rem;
                 margin: 1em auto;
             `}
         >
@@ -15,14 +16,7 @@ const Logo = ({ remWidth = 24 }) => {
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
-                className={css`
-                    width: ${remWidth}rem;
-                    height: ${remWidth * 0.6}rem;
-                    margin: 0 auto;
-                    display: block;
-                    margin-bottom: ${rem * 1.2}rem;
-                    fill: #3e3d38;
-                `}
+                className="logo__icon"
             >
                 <title>Icon</title>
                 <path
@@ -31,35 +25,9 @@ const Logo = ({ remWidth = 24 }) => {
                     id="Icon"
                 />
             </svg>
-            <h1
-                className={css`
-                    font-style: normal;
-                    line-height: 1;
-                    font-size: ${rem * 2.1}rem;
-                    text-align: center;
-                `}
-            >
-                <span
-                    className={css`
-                        display: block;
-                        font-size: 1em;
-                        line-height: 0.6;
-                    `}
-                >
-                    a question of
-                </span>
-                <span
-                    className={css`
-                        margin-right: -0.1em;
-                        text-transform: uppercase;
-                        letter-spacing: 0.1em;
-                        font-size: 3em;
-                        display: block;
-                        font-weight: normal;
-                    `}
-                >
-                    Code
-                </span>
+            <h1 className="logo__lockup">
+                <span className="logo-lockup__small">a question of</span>
+                <span className="logo-lockup__large">Code</span>
             </h1>
         </div>
     );

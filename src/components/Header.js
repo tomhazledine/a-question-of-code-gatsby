@@ -18,13 +18,7 @@ const Header = () => (
             <div className="header">
                 <Link className="header__home" to="/">
                     <svg
-                        className={css`
-                            display: block;
-                            fill: black;
-                            width: 3rem;
-                            height: 3rem;
-                            margin: 0.5rem 1rem 0 0;
-                        `}
+                        className="logo--small"
                         viewBox="0 0 220 220"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -63,10 +57,14 @@ const Header = () => (
                         <Link to="/">Home</Link>
                     </li>
                     <li className="header__link">
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about">
+                            About<span className="hide-on-mobile"> Us</span>
+                        </Link>
                     </li>
                     <li className="header__link">
-                        <Link to="/archive">All Shows</Link>
+                        <Link to="/archive">
+                            <span className="hide-on-mobile">All </span>Shows
+                        </Link>
                     </li>
                 </ul>
             </div>
