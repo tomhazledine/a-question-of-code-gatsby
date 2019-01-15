@@ -1,6 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+import "../scss/main.scss";
 
 const About = ({ data }) => (
     <div>
@@ -30,6 +33,7 @@ const About = ({ data }) => (
                 and downs in his efforts to change career and get a job in tech.
             </p>
         </div>
+        <Footer />
     </div>
 );
 

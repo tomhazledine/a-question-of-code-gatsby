@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 // import { css } from "emotion";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import EpisodeFeatured from "../components/EpisodeFeatured";
 import EpisodeSummary from "../components/EpisodeSummary";
@@ -22,7 +23,7 @@ export default ({ data }) => {
             <div className="wrapper">
                 <div className="home__header">
                     <Logo />
-                    <h2>
+                    <h2 className="home__summary">
                         A newbie coder and a seasoned veteran discuss the
                         questions that always come up when someone begins
                         learning to code.
@@ -39,6 +40,7 @@ export default ({ data }) => {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

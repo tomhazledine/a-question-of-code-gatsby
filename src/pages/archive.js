@@ -3,6 +3,7 @@ import { css } from "emotion";
 import { Link, graphql } from "gatsby";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import "../scss/main.scss";
 
@@ -35,6 +36,7 @@ export default ({ data }) => {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
