@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import { StaticQuery, Link, graphql } from "gatsby";
 import { css } from "emotion";
 
@@ -16,6 +17,7 @@ const Header = () => (
         `}
         render={data => (
             <div className="header">
+                <Helmet title={data.site.siteMetadata.title} />
                 <Link className="header__home" to="/">
                     <svg
                         className="logo--small"
@@ -53,7 +55,7 @@ const Header = () => (
                             RSS
                         </a>
                     </li>
-                    <li className="header__link">
+                    <li className="header__link header__link--optional">
                         <Link to="/">Home</Link>
                     </li>
                     <li className="header__link">
