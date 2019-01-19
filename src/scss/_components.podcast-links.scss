@@ -1,0 +1,20 @@
+.sharing {
+    margin: 2em 0;
+}
+
+.sharing__title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sharing__links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.sharing__link {
+    display: block;
+    padding: 0.5em;
+    margin: 0 0.5em;
+}

@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 // import { css } from "emotion";
 
 import Header from "../components/Header";
+import PodcastLinks from "../components/PodcastLinks";
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import EpisodeFeatured from "../components/EpisodeFeatured";
@@ -28,6 +29,7 @@ export default ({ data }) => {
                         questions that always come up when someone begins
                         learning to code.
                     </h2>
+                    <PodcastLinks />
                 </div>
                 <div className="block--featured">
                     <h3 className="heading--label">Latest episode:</h3>
