@@ -1,5 +1,6 @@
 .sharing {
-    margin: 2em 0;
+    margin: 2em auto;
+    width: 90%;
 }
 
 .sharing__title {
@@ -9,6 +10,7 @@
 
 .sharing__links {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: center;
 }
