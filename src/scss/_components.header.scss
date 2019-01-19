@@ -25,4 +25,13 @@
         line-height: 1;
         text-decoration: none;
     }
+    @include bp(d3) {
+        padding: 1rem 0.5rem;
+    }
+}
+
+.header__link--optional {
+    @include bp(d3) {
+        display: none;
+    }
 }

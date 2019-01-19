@@ -7,6 +7,7 @@ module.exports = {
         overcast: `https://overcast.fm/itunes1448750157/a-question-of-code`
     },
     plugins: [
+        `gatsby-plugin-react-helmet`,
         `gatsby-plugin-emotion`,
         `gatsby-transformer-remark`,
         {

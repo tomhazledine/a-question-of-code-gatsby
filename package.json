@@ -24,5 +24,9 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-emotion": "^10.0.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "react-helmet": "^5.2.0"
   }
 }
