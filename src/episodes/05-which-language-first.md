@@ -2,7 +2,7 @@
 title: "Which language should you learn first?"
 number: "05"
 date: "2019-01-21"
-audio: ""
+audio: "https://media.transistor.fm/a85aa95e.mp3"
 summary: "In this week’s episode Tom and Ed debate the best programming language to learn when you’re just starting out."
 ---
 
