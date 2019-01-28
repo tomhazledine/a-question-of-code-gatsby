@@ -14,6 +14,7 @@ It's easy to get carried away with tooling, but what tools do you actually *need
 * [Prettier](https://prettier.io/)
 * [Vim](https://www.vim.org/)
     * [Vim talk](https://www.youtube.com/watch?v=wlR5gYd6um0)
+* [Moom](https://manytricks.com/moom/)
 
 [@aQoCode](https://twitter.com/aQoCode)
 [@edPython](https://twitter.com/edPython)
