@@ -2,7 +2,7 @@
 title: "What tools do you need?"
 number: "06"
 date: "2019-01-28"
-audio: "???"
+audio: "https://media.transistor.fm/a1c7e0e4.mp3"
 summary: "It's easy to get carried away with tooling, but what tools do you actually need if you want to learn to code?"
 ---
 
