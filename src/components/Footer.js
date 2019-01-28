@@ -9,6 +9,7 @@ const Footer = () => (
                     siteMetadata {
                         title
                         feed
+                        twitter
                     }
                 }
             }
@@ -27,6 +28,15 @@ const Footer = () => (
                     </li>
                     <li className="footer__link">
                         <Link to="/">Home</Link>
+                    </li>
+                    <li className="footer__link">
+                        <a
+                            href={data.site.siteMetadata.twitter}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Twitter
+                        </a>
                     </li>
                     <li className="footer__link">
                         <Link to="/about">
