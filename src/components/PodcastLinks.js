@@ -34,16 +34,7 @@ const PodcastLinks = () => (
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            iTunes
-                        </a>
-                    </li>
-                    <li className="sharing__link">
-                        <a
-                            href={data.site.siteMetadata.twitter}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Twitter
+                            Apple Podcasts
                         </a>
                     </li>
                     <li className="sharing__link">
