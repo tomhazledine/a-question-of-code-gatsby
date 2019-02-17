@@ -19,7 +19,7 @@ For this week’s question Tom gives Ed lots of advice on where he should be app
 * [Hired](https://hired.com/)
 * [Talent.io](https://www.talent.io/)
 
-@aQoCode
-@edPython
+@aQoCode\
+@edPython\
 @thomashazledine
 
