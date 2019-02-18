@@ -6,7 +6,7 @@ audio: "https://media.transistor.fm/1bd36fdd.mp3"
 summary: "For this weeks question Tom gives Ed lots of advice on where he should be applying to jobs. They discuss job boards and networking as well as many other places you can find jobs to apply to."
 ---
 
-For this week’s question Tom gives Ed lots of advice on where he should be applying to jobs. They discuss job boards and networking as well as many other places you can find jobs to apply to. Ed even gives Tom the opportunity to rant about recruiters (and Tom even manages to say some positive stuff about them!). If you’re even thinking about applying for a job in tech at the moment, make sure you listen to this week’s fascinating instalment of A Question of Code!
+For this week’s question Tom gives Ed lots of advice on where he should be applying to jobs. They discuss job boards and networking as well as many other places you can find jobs to apply to. Ed even gives Tom the opportunity to rant about recruiters (and Tom even manages to say some positive stuff about them!). If you’re even thinking about applying for a job in tech at the moment, make sure you listen to this week’s fascinating installment of A Question of Code!
 
 * [Indeed](https://www.indeed.co.uk/)
 * [StackOverflow Job Board](https://stackoverflow.com/jobs)
