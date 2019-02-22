@@ -4,10 +4,10 @@ import { graphql } from "gatsby";
 
 import Header from "../components/Header";
 import PodcastLinks from "../components/PodcastLinks";
-import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import EpisodeFeatured from "../components/EpisodeFeatured";
 import EpisodeSummary from "../components/EpisodeSummary";
+import Footer from "../components/Footer";
 
 import "../scss/main.scss";
 

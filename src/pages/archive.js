@@ -12,24 +12,18 @@ export default ({ data }) => {
         <div>
             <Header />
             <div className="wrapper">
-                <div>
-                    <h1>Archive</h1>
+                <h1 className="title--page">Archive</h1>
+                <div className="archive__list">
                     {data.allMarkdownRemark.edges.map(({ node }) => (
-                        <Link key={node.id} to={node.fields.slug}>
-                            <h2
-                                css={css`
-                                    font-weight: bold;
-                                `}
-                            >
+                        <Link
+                            className="episode-item"
+                            key={node.id}
+                            to={node.fields.slug}
+                        >
+                            <h2 className="episode-item__title">
                                 {node.frontmatter.title}
                             </h2>
-                            <span
-                                className="test_subtitle"
-                                css={css`
-                                    color: #bbb;
-                                    font-style: italic;
-                                `}
-                            >
+                            <span className="episode-item__date">
                                 — {node.frontmatter.date}
                             </span>
                         </Link>
