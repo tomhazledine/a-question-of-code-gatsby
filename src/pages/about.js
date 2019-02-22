@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Header from "../components/Header";
+import Headshots from "../components/Headshots";
 import Footer from "../components/Footer";
 
 import "../scss/main.scss";
@@ -9,7 +10,8 @@ const About = ({ data }) => (
     <div>
         <Header title={data.site.siteMetadata.title} />
         <div className="wrapper">
-            <h1>About Us</h1>
+            <h1 className="title--page">About Us</h1>
+            <Headshots />
             <p>
                 A Question of Code is a podcast that each episode takes an
                 interesting question that’s come up in Ed’s first year of

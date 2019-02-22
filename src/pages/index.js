@@ -4,11 +4,10 @@ import { graphql } from "gatsby";
 
 import Header from "../components/Header";
 import PodcastLinks from "../components/PodcastLinks";
-import Headshots from "../components/Headshots";
-import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import EpisodeFeatured from "../components/EpisodeFeatured";
 import EpisodeSummary from "../components/EpisodeSummary";
+import Footer from "../components/Footer";
 
 import "../scss/main.scss";
 
@@ -36,7 +35,6 @@ export default ({ data }) => {
                     <h3 className="heading--label">Latest episode:</h3>
                     <EpisodeFeatured episode={latest} />
                 </div>
-                <Headshots />
                 <div className="block--regular">
                     <h3 className="heading--label">...and the rest:</h3>
                     {theRest.map(node => (
