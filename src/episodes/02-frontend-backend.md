@@ -1,7 +1,7 @@
 ---
 title: "Frontend or Backend?"
 number: "02"
-date: "2019-01-02"
+date: "2018-12-31"
 audio: "https://media.transistor.fm/60a3b18e.mp3"
 summary: "This week Tom and Ed discuss the differences between “frontend” and “backend” in the coding universe and what drew them to each."
 ---
