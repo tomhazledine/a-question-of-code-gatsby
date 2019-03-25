@@ -2,7 +2,7 @@
 title: "How do you learn?"
 number: "14"
 date: "2019-03-25"
-audio: "https://media.transistor.fm/?????????????????.mp3"
+audio: "https://media.transistor.fm/6b4fe460.mp3"
 summary: "How does Ed (a teacher) recommend you learn things?"
 ---
 
