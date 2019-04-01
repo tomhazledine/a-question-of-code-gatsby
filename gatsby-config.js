@@ -9,7 +9,26 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-emotion`,
-        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    `gatsby-plugin-sharp`,
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            // It's important to specify the maxWidth (in pixels) of
+                            // the content container as this plugin uses this as the
+                            // base for generating different widths of each image.
+                            maxWidth: 864,
+                            linkImagesToOriginal: false,
+                            showCaptions: true,
+                            wrapperStyle: "max-width: 100% !important;"
+                        }
+                    }
+                ]
+            }
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
