@@ -2,7 +2,7 @@
 title: "What happens in a kickoff meeting?"
 number: "15"
 date: "2019-04-01"
-audio: "https://media.transistor.fm/XXXXXXXXXXXXXXXXXX.mp3"
+audio: "https://media.transistor.fm/a9e47ceb.mp3"
 summary: "Ed and Tom kick off their new side project"
 ---
 
