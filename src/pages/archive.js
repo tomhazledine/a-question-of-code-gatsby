@@ -1,5 +1,4 @@
 import React from "react";
-import { css } from "emotion";
 import { Link, graphql } from "gatsby";
 
 import Header from "../components/Header";
