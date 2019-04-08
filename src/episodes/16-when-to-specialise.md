@@ -2,7 +2,7 @@
 title: "When should you specialise?"
 number: "16"
 date: "2019-04-08"
-audio: "https://media.transistor.fm/XXXXXXXXXXXXXX.mp3"
+audio: "https://media.transistor.fm/6d983a0f.mp3"
 summary: "When should you specialise in your career? Ed and Tom discuss this and whether it's even necessary at all."
 ---
 	
