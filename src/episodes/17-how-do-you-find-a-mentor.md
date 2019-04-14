@@ -1,6 +1,6 @@
 ---
 title: "How do you find a mentor?"
-number: "16"
+number: "17"
 date: "2019-04-15"
 audio: "https://media.transistor.fm/724ef322.mp3"
 summary: "What does mentoring look like in the tech industry?"
