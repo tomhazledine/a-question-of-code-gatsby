@@ -2,7 +2,7 @@
 title: "What is the interview process for a tech job?"
 number: "18"
 date: "2019-04-22"
-audio: "https://media.transistor.fm/???????.mp3"
+audio: "https://media.transistor.fm/84316093.mp3"
 summary: "What does interviewing look like in the tech industry?"
 ---
 
