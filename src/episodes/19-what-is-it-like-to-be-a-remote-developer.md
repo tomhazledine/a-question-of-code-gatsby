@@ -2,7 +2,7 @@
 title: "What is it like to be a remote developer?"
 number: "19"
 date: "2019-04-29"
-audio: "https://media.transistor.fm/??????????????.mp3"
+audio: "https://media.transistor.fm/dbb375fe.mp3"
 summary: "Is the rise of the Digital Nomad all it's cracked up to be?"
 ---
 
