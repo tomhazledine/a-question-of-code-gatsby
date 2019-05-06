@@ -2,7 +2,7 @@
 title: "What is it like to attend a tech conference?"
 number: "20"
 date: "2019-05-06"
-audio: "https://media.transistor.fm/????.mp3"
+audio: "https://media.transistor.fm/abecd504.mp3"
 summary: "We took our mobile studio to the excellent Future Sync conference."
 ---
 
@@ -20,5 +20,3 @@ We were able to speak to a whole range of people and get to the bottom of why pe
 * Paul Rowe, founder of Rowe IT. [@roweit](https://twitter.com/roweit), [Rowe IT](https://www.roweit.co.uk/)
 * Toby Parkins, co-founder of software development outsourcing company Headforwards. [@tobyparkins](https://twitter.com/tobyparkins), [Headforwards](https://www.headforwards.com/)
 * Tony Edwards, Future Sync organizer. [@tonyedwardspz](https://twitter.com/tonyedwardspz), [Future Sync](https://futuresync.co.uk/)
-
-
