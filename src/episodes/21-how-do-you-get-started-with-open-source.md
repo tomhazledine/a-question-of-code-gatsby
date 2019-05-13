@@ -12,15 +12,7 @@ Ed has found the world of open source software both intimidating *and* intriguin
 * [dev.to](https://dev.to/)
 * [github.com](https://github.com/)
 * [Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
-
-00:00 what is open source?
-02:24 it can be overwhelming
-04:15 documentation is a good place to start
-06:12 why should you get involved?
-07:40 it's good for your CV
-08:50 it's a great way to network
-10:08 learn new tech
-12:08 GIT terminology
-18:15 good first steps
+* [Code Triage](https://www.codetriage.com/)
+* [The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
 
 
