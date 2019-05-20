@@ -2,7 +2,7 @@
 title: "⚡️ How closely should you match a job description before applying?"
 number: "l1"
 date: "2019-05-20"
-audio: "https://media.transistor.fm/bb0b1c66.mp3"
+audio: "https://media.transistor.fm/b4eb2cc4.mp3"
 summary: "How many of your skills need to match a job description before you apply?"
 ---
 
