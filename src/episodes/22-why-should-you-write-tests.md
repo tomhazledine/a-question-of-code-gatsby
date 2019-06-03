@@ -2,7 +2,7 @@
 title: "Why should you write tests?"
 number: "22"
 date: "2019-06-03"
-audio: "https://media.transistor.fm/???.mp3"
+audio: "https://media.transistor.fm/215baa91.mp3"
 summary: "Is it important to have a test suite for your codebase? TL;DR: yes"
 ---
 
