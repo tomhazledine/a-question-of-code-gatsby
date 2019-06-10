@@ -2,7 +2,7 @@
 title: "How do you write a good CV?"
 number: "23"
 date: "2019-06-10"
-audio: "https://media.transistor.fm/???.mp3"
+audio: "https://media.transistor.fm/06fadc67.mp3"
 summary: "Refactoring Ed's resumé before he applies for jobs"
 ---
 
