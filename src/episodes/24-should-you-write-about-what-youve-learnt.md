@@ -2,7 +2,7 @@
 title: "Should you write about what you’ve learnt?"
 number: "24"
 date: "2019-06-17"
-audio: "https://media.transistor.fm/??????????.mp3"
+audio: "https://media.transistor.fm/a40dbdfe.mp3"
 summary: "Is documenting your coding progress useful for you or anyone else?"
 ---
 
