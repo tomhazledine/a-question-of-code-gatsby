@@ -15,6 +15,8 @@ It's a common assumption that all programmers are maths wünderkinds. But is tha
 3. Geometry and trigonometry (used for calculating positions for graphs and data-visualisations)
 4. Lambda calculus (foundational part of Functional Programming)
 
+## Mentioned in this episode:
+
 * [Go Time](https://changelog.com/gotime) podcast
 * [The Art of Logic](https://www.amazon.co.uk/Art-Logic-Sense-World-Doesnt/dp/178816038X/) book by Eugenia Cheng
 * [Programming is not math](http://www.sarahmei.com/blog/2014/07/15/programming-is-not-math/), article by Sarah Mei
