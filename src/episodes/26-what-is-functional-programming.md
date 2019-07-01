@@ -2,7 +2,7 @@
 title: "What is functional programming?"
 number: "26"
 date: "2019-07-01"
-audio: "https://media.transistor.fm/8726f81a.mp3"
+audio: "https://media.transistor.fm/ea56d4ae.mp3"
 summary: "An FP convert tries to explain his obsession to a skeptical newbie coder."
 ---
 
