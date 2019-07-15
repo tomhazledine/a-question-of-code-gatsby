@@ -2,11 +2,11 @@
 title: "How do you stay motivated?"
 number: "28"
 date: "2019-07-15"
-audio: "https://media.transistor.fm/???.mp3"
-summary: "Another look at time management and the usefulness of yearly themes"
+audio: "https://media.transistor.fm/b1756664.mp3"
+summary: "Another look at time management and the usefulness of yearly themes."
 ---
 
-July is a good time to revisit our yearly goals and motivational tactics. Hey, we're nerds; it's *always* a good time to talk about organizational systems! We first touched on this topic way back in episode four. Have our options changed since then? Have our *opinions* changed since then? And are we still finding the same time-management strategies and tactics useful? Find out all this, and more, in this week's motivational instalment of A Question of Code.
+July is a good time to revisit our yearly goals and motivational tactics. Hey, we're nerds; it's *always* a good time to talk about organisational systems! We first touched on this topic way back in episode four. Have our options changed since then? Have our *opinions* changed since then? And are we still finding the same time-management strategies and tactics useful? Find out all this, and more, in this week's motivational instalment of A Question of Code.
 
 ## Mentioned in this episode:
 
