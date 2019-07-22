@@ -2,7 +2,7 @@
 title: "What's wrong with developer culture?"
 number: "29"
 date: "2019-07-22"
-audio: "https://media.transistor.fm/????.mp3"
+audio: "https://media.transistor.fm/264d65b1.mp3"
 summary: "Can toxic habits be excused by coding-talent?"
 ---
 
