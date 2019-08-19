@@ -1,6 +1,6 @@
 ---
 title: "How much time do you spending coding in a coding job?"
-number: "⚡️4"
+number: "⚡️5"
 date: "2019-08-19"
 audio: "https://media.transistor.fm/f5c648b2.mp3"
 summary: "You probably won't spend all your time writing code."
