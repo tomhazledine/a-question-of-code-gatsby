@@ -2,7 +2,7 @@
 title: "How do you prepare for a new job?"
 number: "32"
 date: "2019-09-02"
-audio: "https://media.transistor.fm/XXX.mp3"
+audio: "https://media.transistor.fm/84f8cf47.mp3"
 summary: "Make sure you're in the right frame of mind to face those first few days in a new role."
 ---
 
