@@ -15,5 +15,5 @@ So how long should you spend automating your build process? How much tooling is 
 * [Automate the boring stuff with Python](https://automatetheboringstuff.com/), book by Al Sweigart
 * [Logitech MX Master](https://www.amazon.co.uk/Logitech-Master-Wireless-Bluetooth-Windows/dp/B00ULNAOMA) mouse
 * [The Agile Manifesto](https://agilemanifesto.org/)
-* [The Agile Revolution](https://agilemanifesto.org/), episode of the Command Line Heroes podcast
+* [The Agile Revolution](https://www.redhat.com/en/command-line-heroes/season-1/agile-revolution), episode of the Command Line Heroes podcast
 * [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) book by David Thomas and Andrew Hunt
