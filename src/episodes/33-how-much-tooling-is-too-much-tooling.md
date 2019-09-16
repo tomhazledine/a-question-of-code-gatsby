@@ -1,5 +1,5 @@
 ---
-title: "How do you prepare for a new job?"
+title: "How much tooling to too much tooling?"
 number: "33"
 date: "2019-09-09"
 audio: "https://media.transistor.fm/26e9c68c.mp3"
