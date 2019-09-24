@@ -2,7 +2,7 @@
 title: "Do you git it? (What is version control?)"
 number: "35"
 date: "2019-09-23"
-audio: "https://media.transistor.fm/e364801d.mp3"
+audio: "https://cdn.transistor.fm/file/transistor/m/shows/789/85398fbcbd38667c5e2ff114c66e2414.mp3"
 summary: "What is version control, git and why should you be using it everyday?"
 ---
 
