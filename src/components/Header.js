@@ -64,9 +64,7 @@ const Header = () => (
                         </Link>
                     </li>
                     <li className="header__link">
-                        <Link to="mailto:aquestionofcode@gmail.com">
-                            Contact
-                        </Link>
+                        <a href="mailto:aquestionofcode@gmail.com">Contact</a>
                     </li>
                     <li className="header__link">
                         <Link to="/archive">

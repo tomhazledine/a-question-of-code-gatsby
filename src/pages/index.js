@@ -30,7 +30,9 @@ export default ({ data }) => {
                         learning to code.
                     </h2>
                     <br/>
-                    <strong><a href="mailto:aquestionofcode@gmail.com" style="text-align: center">Ask us a question!</a></strong>
+                    <div style={{textAlign: 'center', fontSize: '20px'}}>
+                        <a href="mailto:aquestionofcode@gmail.com">Ask us a question!</a>
+                    </div>
                     <PodcastLinks />
                 </div>
                 <div className="block--featured">
