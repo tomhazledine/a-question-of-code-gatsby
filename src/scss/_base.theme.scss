@@ -57,30 +57,10 @@ p {
     font-size: 2em;
 }
 
-// .logo__icon {
-//     width: 24rem;
-//     height: 18rem;
-//     margin: 0 auto;
-//     display: block;
-//     margin-bottom: 1.2rem;
-// }
-// .logo__lockup {
-//     font-style: normal;
-//     line-height: 1;
-//     font-size: 2.6rem;
-//     text-align: center;
-// }
-// .logo__line-one {
-//     display: block;
-//     font-size: 1em;
-//     line-height: 0.6;
-// }
+strong {
+    font-weight: bold;
+}
 
-// .logo__line-two {
-//     margin-right: -0.1em;
-//     text-transform: uppercase;
-//     letter-spacing: 0.1em;
-//     font-size: 3em;
-//     display: block;
-//     font-weight: normal;
-// }
+em {
+    font-style: italic;
+}
