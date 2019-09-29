@@ -29,6 +29,11 @@ export default ({ data }) => {
                         questions that always come up when someone begins
                         learning to code.
                     </h2>
+                    <div className="home__question">
+                        <a href="mailto:aquestionofcode@gmail.com">
+                            Ask us a question!
+                        </a>
+                    </div>
                     <PodcastLinks />
                 </div>
                 <div className="block--featured">
