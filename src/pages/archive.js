@@ -1,8 +1,9 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import EpisodeSummary from "../components/EpisodeSummary";
 
 import "../scss/main.scss";
 
@@ -11,21 +12,10 @@ export default ({ data }) => {
         <div>
             <Header />
             <div className="wrapper">
-                <h1 className="title--page">Archive</h1>
+                <h3 className="heading--label">All episodes:</h3>
                 <div className="archive__list">
                     {data.allMarkdownRemark.edges.map(({ node }) => (
-                        <Link
-                            className="episode-item"
-                            key={node.id}
-                            to={node.fields.slug}
-                        >
-                            <h2 className="episode-item__title">
-                                {node.frontmatter.title}
-                            </h2>
-                            <span className="episode-item__date">
-                                — {node.frontmatter.date}
-                            </span>
-                        </Link>
+                        <EpisodeSummary episode={node} key={node.id} />
                     ))}
                 </div>
             </div>
@@ -43,7 +33,10 @@ export const query = graphql`
                     id
                     frontmatter {
                         title
-                        date(formatString: "DD MMMM, YYYY")
+                        date(formatString: "YYYYMMDD")
+                        number
+                        summary
+                        featured
                     }
                     fields {
                         slug
