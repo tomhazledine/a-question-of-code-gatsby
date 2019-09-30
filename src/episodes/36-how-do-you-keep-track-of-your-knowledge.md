@@ -2,7 +2,7 @@
 title: "How do you keep track of your knowledge?"
 number: "36"
 date: "2019-09-30"
-audio: "https://media.transistor.fm/XXX.mp3"
+audio: "https://media.transistor.fm/2be6d6f1.mp3"
 summary: "Good note taking is a crucial skill when learning to code"
 ---
 
@@ -18,16 +18,3 @@ When learning to code, you need to remember an awful lot of new information. In 
 * [The Exocortex](https://max-antonucci.gitbook.io/study-notebook/)
 * [Byword app](https://bywordapp.com)
 * [iA Writer app](https://ia.net/writer)
-
----
-
-## Chapters (temp)
-
-* Theme system journals
-* Retaining knowledge
-* The Exocortex
-* Ed's requirements
-* Ed's system
-* Tom's system
-* Physical note taking
-* Markdown
