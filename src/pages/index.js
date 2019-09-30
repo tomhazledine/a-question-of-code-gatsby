@@ -1,6 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
-// import { css } from "emotion";
+import { graphql, Link } from "gatsby";
 
 import Header from "../components/Header";
 import PodcastLinks from "../components/PodcastLinks";
@@ -16,7 +15,9 @@ export default ({ data }) => {
         .map(({ node }) => node)
         .sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1));
     const latest = allEpisodes[0];
-    const theRest = allEpisodes.filter(ep => ep.id !== latest.id);
+    const featured = allEpisodes
+        .filter(ep => ep.id !== latest.id && ep.frontmatter.featured)
+        .slice(0, 5);
 
     return (
         <div>
@@ -41,10 +42,13 @@ export default ({ data }) => {
                     <EpisodeFeatured episode={latest} />
                 </div>
                 <div className="block--regular">
-                    <h3 className="heading--label">...and the rest:</h3>
-                    {theRest.map(node => (
+                    <h3 className="heading--label">Popular episodes:</h3>
+                    {featured.map(node => (
                         <EpisodeSummary episode={node} key={node.id} />
                     ))}
+                    <Link className="block__cta" to="/archive">
+                        All episodes...
+                    </Link>
                 </div>
             </div>
             <Footer />
@@ -64,6 +68,7 @@ export const query = graphql`
                         number
                         date(formatString: "YYYYMMDD")
                         summary
+                        featured
                     }
                     fields {
                         slug

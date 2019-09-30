@@ -2,6 +2,7 @@
 title: "Should you get a CS degree?"
 number: "12"
 date: "2019-03-11"
+featured: true
 audio: "https://media.transistor.fm/5fc8391b.mp3"
 summary: "As a coder, do you need to have done a three year (or more) computer science degree to get a job?"
 ---
