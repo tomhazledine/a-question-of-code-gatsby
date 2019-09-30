@@ -15,10 +15,9 @@ export default ({ data }) => {
         .map(({ node }) => node)
         .sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1));
     const latest = allEpisodes[0];
-    const featured = allEpisodes.filter(
-        ep => ep.id !== latest.id && ep.frontmatter.featured
-    );
-    const theRest = allEpisodes.filter(ep => ep.id !== latest.id);
+    const featured = allEpisodes
+        .filter(ep => ep.id !== latest.id && ep.frontmatter.featured)
+        .slice(0, 5);
 
     return (
         <div>

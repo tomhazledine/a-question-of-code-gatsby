@@ -2,6 +2,7 @@
 title: "How do you get started with open source?"
 number: "21"
 date: "2019-05-13"
+featured: true
 audio: "https://media.transistor.fm/cfb38ed8.mp3"
 summary: "What is open source, and is contributing a good use of time for newbie coders?"
 ---
