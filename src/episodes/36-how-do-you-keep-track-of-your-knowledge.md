@@ -6,7 +6,7 @@ audio: "https://media.transistor.fm/2be6d6f1.mp3"
 summary: "Good note taking is a crucial skill when learning to code"
 ---
 
-When learning to code, you need to remember an awful lot of new information. In fact, this is true for *every* stage of your career. Storing and recalling the things you've learned efficiently is a key skill. Can systems-thinking help with this process? And how do Ed and Tom tackle this particular challenge? At all Find out in this week's recollective instalment of A Question of Code.
+When learning to code, you need to remember an awful lot of new information. In fact, this is true for *every* stage of your career. Storing and recalling the things you've learned efficiently is a key skill. Can systems-thinking help with this process? And how do Ed and Tom tackle this particular challenge? Find out in this week's recollective instalment of A Question of Code.
 
 ## Mentioned in this episode:
 
