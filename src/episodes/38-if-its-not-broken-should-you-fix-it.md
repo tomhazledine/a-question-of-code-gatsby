@@ -2,7 +2,7 @@
 title: "If it's not broken, should you fix it?"
 number: "38"
 date: "2019-11-18"
-audio: "https://media.transistor.fm/XXX.mp3"
+audio: "https://media.transistor.fm/5646de81.mp3"
 summary: "Knowing when not to refactoring is just important as important as knowing how to refactor"
 ---
 
