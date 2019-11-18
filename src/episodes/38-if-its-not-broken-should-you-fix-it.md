@@ -10,4 +10,4 @@ Every developers wants to refactor all the things all the time. But is it always
 
 ## Mentioned in this episode:
 
-* [Martin Fowler's refactoring book]()
+* [Martin Fowler's refactoring book](https://martinfowler.com/books/refactoring.html)
