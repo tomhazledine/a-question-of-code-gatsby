@@ -17,4 +17,4 @@ As an extra special treat for our listeners, Tony has also created a discount co
 * [Tony Edwards on Twitter](https://twitter.com/tonyedwardspz)
 * [Future Sync conference](https://futuresync.co.uk/)
 * [Future Sync CfP](https://docs.google.com/forms/d/e/1FAIpQLSfvigF0eLz3kppTpOzyfk0-AaIw4z075gW6rP-mPkbBZMEmvw/viewform)
-* [Frontend developer love]
+* See Tony speak at [Frontend Developer Love](https://www.frontenddeveloperlove.com/) conference
