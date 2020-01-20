@@ -1,5 +1,5 @@
 ---
-title: "How do you apply to speak at a conference?"
+title: "How do you apply to speak at a conference? (with Tony Edwards)"
 number: "46"
 date: "2020-01-20"
 audio: "https://media.transistor.fm/73e04c6b.mp3"
