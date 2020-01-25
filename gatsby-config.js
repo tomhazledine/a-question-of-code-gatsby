@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `A question of code`,
-        siteURL: "https://aqoc.dev",
+        siteURL: `https://aquestionofcode.com`,
         feed: `https://feeds.transistor.fm/a-question-of-code`,
         itunes: `https://itunes.apple.com/gb/podcast/a-question-of-code/id1448750157`,
         twitter: `https://twitter.com/aQoCode`,
