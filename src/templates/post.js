@@ -32,6 +32,7 @@ const post = ({ data, location }) => {
                     property="og:description"
                     content={post.frontmatter.summary}
                 />
+                <meta property="twitter:image" content={Logo} />
                 <meta property="og:image" content={Logo} />
             </Helmet>
             <Header />
