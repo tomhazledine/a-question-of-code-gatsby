@@ -32,7 +32,10 @@ const post = ({ data, location }) => {
                     property="og:description"
                     content={post.frontmatter.summary}
                 />
-                <meta name="twitter:image" content={Logo} />
+                <meta
+                    name="twitter:image"
+                    content={`${data.site.siteMetadata.siteURL}${Logo}`}
+                />
                 <meta property="og:image" content={Logo} />
             </Helmet>
             <Header />
@@ -83,6 +86,7 @@ export const query = graphql`
         site {
             siteMetadata {
                 twitter
+                siteURL
             }
         }
     }
