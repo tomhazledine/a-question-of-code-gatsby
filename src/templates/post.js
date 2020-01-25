@@ -26,13 +26,13 @@ const post = ({ data, location }) => {
                 <meta property="og:url" content={location.href} />
                 <meta
                     property="og:title"
-                    content={`Episode ${post.frontmatter.number}: ${post.frontmatter.title}`}
+                    content={`#${post.frontmatter.number}: ${post.frontmatter.title}`}
                 />
                 <meta
                     property="og:description"
                     content={post.frontmatter.summary}
                 />
-                <meta property="twitter:image" content={Logo} />
+                <meta name="twitter:image" content={Logo} />
                 <meta property="og:image" content={Logo} />
             </Helmet>
             <Header />
