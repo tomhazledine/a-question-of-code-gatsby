@@ -2,18 +2,38 @@ import React from "react";
 import { graphql } from "gatsby";
 import { css } from "emotion";
 import moment from "moment";
+import { Helmet } from "react-helmet";
 
 import Header from "../components/Header";
 import Headshots from "../components/Headshots";
 import Player from "../components/Player";
 import Footer from "../components/Footer";
 
+import Logo from "../images/aqoc_cover.jpg";
+
 import "../scss/main.scss";
 
-const post = ({ data }) => {
+const post = ({ data, location }) => {
     const post = data.markdownRemark;
     return (
         <div>
+            <Helmet>
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:creator"
+                    content={data.site.siteMetadata.twitter}
+                />
+                <meta property="og:url" content={location.href} />
+                <meta
+                    property="og:title"
+                    content={`Episode ${post.frontmatter.number}: ${post.frontmatter.title}`}
+                />
+                <meta
+                    property="og:description"
+                    content={post.frontmatter.summary}
+                />
+                <meta property="og:image" content={Logo} />
+            </Helmet>
             <Header />
             <div className="wrapper">
                 <div className="post__header">
@@ -53,8 +73,14 @@ export const query = graphql`
             html
             frontmatter {
                 title
+                number
                 audio
                 date
+            }
+        }
+        site {
+            siteMetadata {
+                twitter
             }
         }
     }
