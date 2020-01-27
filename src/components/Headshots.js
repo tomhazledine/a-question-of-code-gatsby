@@ -11,8 +11,11 @@ const Headshots = ({ episode }) => (
                     backgroundImage: `url('${HeadshotEd}')`
                 }}
             />
-            <a href="https://twitter.com/edPython" className="headshot__link">
-                @edPython
+            <a
+                href="https://twitter.com/ed_the_coder"
+                className="headshot__link"
+            >
+                @ed_the_coder
             </a>
         </div>
         <div className="headshot">
