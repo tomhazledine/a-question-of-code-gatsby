@@ -2,7 +2,7 @@
 title: "What is a build pipeline?"
 number: "49"
 date: "2020-02-10"
-audio: "https://media.transistor.fm/XXX.mp3"
+audio: "https://media.transistor.fm/393a400e.mp3"
 summary: "How do you get your code onto the internet?"
 ---
 
