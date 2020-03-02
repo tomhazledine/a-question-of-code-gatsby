@@ -1,19 +1,14 @@
 ---
-title: "What is a Minimum Viable Product?"
+title: "What gear do you use?"
 number: "52"
 date: "2020-03-02"
 audio: "https://media.transistor.fm/.mp3"
-summary: ""
+summary: "Get two nerds in a room and you'll have three opinions about technology."
 ---
 
-- computers
-- peripherals (keyboards, mice, trackpads)
-- audio
-- video?
-- extra? (e.g. wacom tablet, iPad, servers, etc.)
+We've talked before about the *essential* equipment you need when learning to code, but this week we take a look at *all* the tech and tools that we use everyday. Get two nerds in a room and you'll have three opinions about what is the best technology to use. A lot of this stuff is definitely optional, but we get utility from using it nonetheless.
 
-
-Find out all this and more in this week's useful instalment of A Question of Code.
+So what kind of equipment gets Ed excited? And which bits of kit does Tom think provide the most value? Which of our hosts spent way too much on the Worlds Best Pencil? Find out all this and more in this week's useful instalment of A Question of Code.
 
 ## Mentioned in this episode:
 
