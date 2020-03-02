@@ -2,7 +2,7 @@
 title: "What gear do you use?"
 number: "52"
 date: "2020-03-02"
-audio: "https://media.transistor.fm/.mp3"
+audio: "https://media.transistor.fm/84a70578.mp3"
 summary: "Get two nerds in a room and you'll have three opinions about technology."
 ---
 
@@ -14,4 +14,4 @@ So what kind of equipment gets Ed excited? And which bits of kit does Tom think 
 
 * [Tom's "uses" page](https://www.tomhazledine.com/uses/)
 * [The uses.tech site](https://uses.tech/)
-* [Wes Bos' GitHub repo for the "uses" project](https://github.com/wesbos/awesome-uses)
+* [Wes Bos' GitHub repo for the "uses" project](https://github.com/wesbos/awesome-uses) 
