@@ -1,5 +1,5 @@
 ---
-title: "Why do people write "bad" code?"
+title: "Why do people write 'bad' code?"
 number: "54"
 date: "2020-03-16"
 audio: "https://media.transistor.fm/b18a4793.mp3"
