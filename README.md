@@ -1,4 +1,4 @@
-# A Question of Code
+# [deprecated] A Question of Code: Gatsby build
 
 Static site for the *A Question of Code* podcast: [aquestionofcode.com](https://aquestionofcode.com/)
 
