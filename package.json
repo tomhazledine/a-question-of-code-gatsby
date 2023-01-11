@@ -21,7 +21,7 @@
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-source-filesystem": "^2.0.9",
-    "gatsby-transformer-remark": "^2.1.14",
+    "gatsby-transformer-remark": "^5.25.1",
     "moment": "^2.23.0",
     "node-sass": "^7.0.0",
     "react": "^16.5.1",
